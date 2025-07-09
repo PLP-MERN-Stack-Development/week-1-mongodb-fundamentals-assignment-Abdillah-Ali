@@ -38,10 +38,39 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 1. Complete all tasks in the assignment
 2. Add your `queries.js` file with all required MongoDB queries
 3. Include a screenshot of your MongoDB database
-4. Update the README.md with your specific setup instructions
+4. # MongoDB Fundamentals Assignment
+
+This repository contains the solution for the Week 1 MongoDB Fundamentals assignment.
+
+## Setup and Execution
+
+1.  **Install Dependencies:**
+    Open your terminal and run the following command to install the required `mongodb` package:
+    ```bash
+    npm install mongodb
+    ```
+
+2.  **Start MongoDB:**
+    Ensure your local MongoDB server is running. If you are using MongoDB Atlas, update the `uri` in `insert_books.js` with your connection string.
+
+3.  **Populate the Database:**
+    Run the following command to execute the `insert_books.js` script, which will create the `plp_bookstore` database and the `books` collection, and then populate it with sample data:
+    ```bash
+    node insert_books.js
+    ```
+
+4.  **Run Queries:**
+    The `queries.js` file contains all the required MongoDB queries for this assignment. You can copy and paste these queries into your MongoDB Shell (`mongosh`) or use them in MongoDB Compass to interact with the database.
+
+## Included Files
+
+-   `insert_books.js`: A script to populate the MongoDB database with sample book data.
+-   `queries.js`: Contains all the MongoDB queries for the assignment tasks.
+-   `README.md`: This file, providing setup and execution instructions.
+-   `database_screenshot.png`: A screenshot of the MongoDB database after population.
 
 ## Resources
 
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
-- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/)
